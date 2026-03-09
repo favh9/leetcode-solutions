@@ -13,12 +13,12 @@ async def root():
     return {"message": "Hello World"}
 
 
-@app.post("/contains-duplicate-217")
+@app.post("/217")
 def check_contains_duplicate(nums: List[int]):
     result = contains_duplicate(nums)
     return {"nums": nums, "contains_duplicate": result}
 
-@app.post("/valid-anagram-242")
+@app.post("/242")
 def check_valid_anagram(s: str = Body(str), t: str = Body(str)):
     return {"is_anagram": is_anagram(s, t)}
     
