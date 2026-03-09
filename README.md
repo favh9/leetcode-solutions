@@ -20,6 +20,7 @@ Interactive docs available at `http://localhost:8000/docs`
 | Method | Endpoint | LeetCode Problem |
 |--------|----------|-----------------|
 | POST | `/217` | 217. Contains Duplicate |
+| POST | `/242` | 242. Valid Anagram |
 
 ---
 
@@ -30,5 +31,6 @@ Interactive docs available at `http://localhost:8000/docs`
 | # | Problem | Difficulty | Solved in < 20 min |
 |---|---------|:----------:|:------------------:|
 | 217 | [Contains Duplicate](ArraysAndHashing/ContainsDuplicate_217.py) | Easy | ✅ |
+| 242 | [Valid Anagram](ArraysAndHashing/ValidAnagram_242.py) | Easy | ✅ |
 
 ---
