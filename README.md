@@ -2,9 +2,9 @@
 
 My LeetCode journey following the [NeetCode 150](https://neetcode.io/practice) study plan - with a twist. Each solution is exposed as an **API endpoint** using **FastAPI**, combining algorithm practice with API development.
 
-I follow the NeetCode 150 since it's topic-based and pattern-organized, and then I solve the LeetCode problems to fill in the gaps.
+I follow the NeetCode 150 since I like that it's structure-focused, and then I solve them in both platforms, NeetCode and LeetCode.
 
-## Running the API
+## Getting Started
 
 ```bash
 brew install fastapi
@@ -19,12 +19,11 @@ Interactive docs available at `http://localhost:8000/docs`
 
 | Method | Endpoint | LeetCode Problem |
 |--------|----------|-----------------|
-| GET | `/` | Health check |
-| POST | `/contains-duplicate-217` | 217. Contains Duplicate |
+| POST | `/217` | 217. Contains Duplicate |
 
 ---
 
-## NeetCode Problems
+## LeetCode Problems
 
 ### Array & Hashing
 
@@ -33,13 +32,3 @@ Interactive docs available at `http://localhost:8000/docs`
 | 217 | [Contains Duplicate](ArraysAndHashing/ContainsDuplicate_217.py) | Easy | ✅ |
 
 ---
-
-## Project Structure
-
-```
-leetcode-solutions/
-├── main.py                  # FastAPI app and routes
-├── ArraysAndHashing/
-│   └── ContainsDuplicate_217.py
-└── README.md
-```
