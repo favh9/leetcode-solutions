@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from ArraysAndHashing.ContainsDuplicate_217 import contains_duplicate
 from ArraysAndHashing.ValidAnagram_242 import is_anagram_v2
+from ArraysAndHashing.TwoSum_1 import two_sum
 from typing import List
 from fastapi import Body
 
@@ -21,4 +22,8 @@ def check_contains_duplicate(nums: List[int]):
 @app.post("/242")
 def check_valid_anagram(s: str = Body(str), t: str = Body(str)):
     return {"is_anagram": is_anagram_v2(s, t)}
+
+@app.post("/1")
+def check_two_sum(nums: List[int] = Body(List[int]), target: int = Body(int)):
+    return {"two_sum": two_sum(nums, target)}
     

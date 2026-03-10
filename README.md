@@ -32,5 +32,5 @@ Interactive docs available at `http://localhost:8000/docs`
 |---|---------|:----------:|:------------------:|
 | 217 | [Contains Duplicate](ArraysAndHashing/ContainsDuplicate_217.py) | Easy | ✅ |
 | 242 | [Valid Anagram](ArraysAndHashing/ValidAnagram_242.py) | Easy | ✅ |
-
+| 1   | [Two Sum](ArraysAndHashing/TwoSum_1.py) | Easy | ❌ |
 ---
